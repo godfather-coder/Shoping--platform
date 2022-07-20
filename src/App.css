@@ -1,0 +1,78 @@
+.logo{
+    width: 80px;
+    position: absolute;
+    left:50px;
+}
+.logo:hover{
+    transition: 500ms;
+    width:100px;
+    
+}
+.sign{
+    position: absolute;
+    right: 50px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgb(42, 165, 52);
+    color :rgba(236, 236, 236, 0.996);
+    border: solid 0px black;
+    padding:6px;
+    border-radius: 40px;
+    
+}
+.sign:hover{
+    transition: 200ms;
+    background-color: rgb(157, 12, 12);
+    color: aliceblue;
+}
+.sign1{
+    font-weight: 400;
+    position: absolute;
+    right: 150px;
+    background-color: rgb(100, 126, 222);
+    color :rgba(6, 10, 129, 0.996);
+    border: solid 0px black;
+    padding:8px;
+    border-radius: 40px;
+}
+.sign1:hover{
+    transition: 250ms;
+    background-color: rgb(92, 12, 177);
+    color:aliceblue
+}
+.registr{
+    display: inline;
+    color: blue;
+}
+.main{
+    position: absolute;
+    top: 70%;
+    height: 30%;
+    width: 100%;
+    border: 1px red solid;
+    background-color: rgb(13, 35, 82);
+    color:blueviolet;
+    display: grid;
+    flex-direction: row;
+    
+}
+.social{
+    width: 40px;
+    margin-bottom: 10px;
+    background-color: rebeccapurple;
+}
+.social:hover{
+    width: 50px;
+    transition: 400ms;
+}
+.socialyt{
+    width: 50px;
+    opacity: 1;
+    filter: brightness(50%);
+}
+.socialyt:hover{
+    width: 70px;
+    transition-duration: 400ms;
+    transition-property:all ;
+    
+}
