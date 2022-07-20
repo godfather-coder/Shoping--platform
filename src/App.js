@@ -30,30 +30,30 @@ function App() {
     <Router>
       <div className='App' ><Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/log-in' element={<Login/>} />
-          <Route path ='/sign-up' element={<Regist/>} />
+          <Route path = '/' element={<Home/>} />
+          <Route path = '/log-in' element={<Login/>} />
+          <Route path = '/sign-up' element={<Regist/>} />
           <Route path = '/category' element={<Category/>}/>
           <Route path = '/prime' element = {<Prime/>}/>
-          <Route path='/about' element={<Aboutus/>}/>
-          <Route path ='/foryou' element={<Foryou/>}/>
-          <Route path ='/blog' element={<Blog/>}/>
+          <Route path = '/about' element={<Aboutus/>}/>
+          <Route path = '/foryou' element={<Foryou/>}/>
+          <Route path = '/blog' element={<Blog/>}/>
           <Route path = '/company' element={<Aboutus/>}/>
-          <Route path ='/help' element= {<Help/>}/>
+          <Route path = '/help' element= {<Help/>}/>
           <Route path = '/why' element = {<Why/>}/>
           <Route path = '/froyou' element = {<Foryou/>}/>
           <Route path = '/bestselers' element={<Best/>}/>
           <Route path = '/sales' element={<Sale/>}/>
           <Route path = '/delivery' element={<Delivery/>}/>
           <Route path = '/work' element={<Working/>}/>
-          <Route path  = '/privacy' element={<Privacy/>}/>
+          <Route path = '/privacy' element={<Privacy/>}/>
           <Route path = '/terms' element = {<Terms/>}/>
           <Route path = '/georgia' element ={<Georgia/>}/>
           <Route path = '/usa' element ={<Usa/>}/>
           <Route path = '/china' element ={<China/>}/>
           <Route path = '/germany' element ={<Germany/>}/>
           <Route path = '/fee' element ={<Fees/>}/>
-          <Route path='/dayoff'  element={<Off/>}/>
+          <Route path = '/dayoff'  element={<Off/>}/>
         </Routes><Footer/>
       </div>
     </Router>
