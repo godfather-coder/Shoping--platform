@@ -2,7 +2,7 @@ import React from 'react'
 import Fa from './fa.png';
 import Insta from './insta.png';
 import Yt from './yt.png';
-import {Box, Container, Row, Column, Prop, Col_name, Copyright} from "./css";
+import {Box, Container, Row, Column, Prop, Col_name} from "./css";
 const footer = () => {  
   return (
     <Box>
